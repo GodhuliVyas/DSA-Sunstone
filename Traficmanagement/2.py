@@ -9,10 +9,11 @@ def create_graph():
     return G
 
 def calculate_shortest_path(G, source):
-    return nx.shortest_path_length(G, source=source, weight='weight')
+    return nx.shortest_path_length(G, source=source, weight='weight')       #MST feature added
 
 def predict_traffic(G):
     # Assuming historical traffic data is a list of dictionaries
+    # key : value
     historical_traffic_data = [
         {'A': 0, 'B': 5, 'C': 8},
         {'A': 0, 'B': 2, 'C': 5}
@@ -28,7 +29,7 @@ def predict_traffic(G):
 def main():
     G = create_graph()
 
-    # Calculate and print centrality measures
+    #  Degree 
     degree_centrality = nx.degree_centrality(G)
     print("Degree Centrality:", degree_centrality)
 
