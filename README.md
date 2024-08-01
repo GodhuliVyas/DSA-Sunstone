@@ -5,7 +5,7 @@ Topics implemented:
 Nodes creation, Dictionary, Arrays, Lists, Tree, Graph, Minimum Spanning Tree, etc. 
 
 
-#1. Social Network Analysis
+###1. Social Network Analysis
 
 Features: 
 Implemented graph representation using adjacency lists or adjacency matrices.
@@ -16,7 +16,6 @@ Visualized the network structure using a graph visualization library.
 Highlighted key users and communities in the visualization.
 
 
-##Steps to run the project on Vs code- 
 #Steps to run the project on Vs code- 
 1. Change the current directory of the folder , type
 cd SocialNetworkAnalysis
@@ -28,7 +27,7 @@ pip install matplotlib
 
 
 
-#2. Traffic Management
+###2. Traffic Management
 
 Features: 
 Modeled the road network as a graph, with intersections represented as nodes and roads as edges.
@@ -37,7 +36,7 @@ Used data structures such as heaps and priority queues to update routes dynamica
 Incorporated historical traffic data to predict future traffic conditions and adjusted routes accordingly.
 Developed a user-friendly interface that allowed users to input start and destination points and displayed the suggested route on a map.
 
-##Steps to run the project on Vs code- 
+#Steps to run the project on Vs code- 
 1. Change the current directory of the folder , type
 cd TraficManagement
 2. Import networkx, matplotlib library in terminal using
@@ -46,7 +45,7 @@ pip install matplotlib
 3. Run "python 2.py" in terminal
 
 
-#3. Hospital Management System
+###3. Hospital Management System
 
 Features:
 Utilized trees to store and manage patient records, ensuring efficient search and retrieval.
@@ -55,7 +54,7 @@ Applied hash tables to manage medical inventory, track stock levels, and generat
 Developed efficient search and sorting algorithms to quickly find patient records and inventory items.
 Ensured data security and privacy through encryption and access control mechanisms.
 
-##Steps to run the project on Vs code- 
+#Steps to run the project on Vs code- 
 1. Change the current directory of the folder , type
 cd HospitalManagementSystem
 2. Import networkx, matplotlib library in terminal using
